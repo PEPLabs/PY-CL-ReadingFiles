@@ -1,0 +1,20 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_read_existing_file",
+          "label": "Read Existing File",
+          "description": "Verifies that Lab.read_file correctly reads and returns the content of an existing file."
+        },
+        {
+          "methodName": "test_read_nonexistent_file",
+          "label": "Read Nonexistent File",
+          "description": "Ensures Lab.read_file returns None when attempting to read a file that does not exist."
+        }
+      ]
+    }
+  ]
+}
